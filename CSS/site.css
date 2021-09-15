@@ -1,0 +1,7 @@
+.background div{
+    background-color: rosybrown;
+}
+.column {
+    float: left;
+    width: 50%;
+}

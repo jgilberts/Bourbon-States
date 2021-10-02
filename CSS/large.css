@@ -1,48 +1,9 @@
-body{ 
-    font-family: 'Permanent Marker', cursive;
-    font-family: 'Lato', sans-serif;
-    }
-body h1{
-    font-family: 'Permanent Marker', cursive;
-}
-.background div{
-    background-color: rosybrown;
-}
-.column {
-    float: left;
-    width: 50%;
-}
-/* Small devices 768px and less */
-@media only screen and (max-width: 768px){
-    /* grid rules */
-    .row {clear: both;}
-    .column {float: left;}
-
-    footer{
-        background-color:lightgray
-        font-size: 1.2rem;
-    }
-    footer h2{
-        font-style: italic;
-        text-transform: uppercase;
-        margin: 1rem 0 .3rem 0;
-    }
-
-    .clearfix:after {
-        content:"";
-        display: table;
-        clear: both;
-    }
-
-}
-/* Medium devices 768px to 1280px */ 
-@media only screen and (min-width: 768px){
- 
-}
-
 /* Large screens >1280px */
 @media only screen and (min-width:1280px){
 
+    .large-3 {width: 25%;}
+    nav ul {margin-left: 2vw;}
+    nav li {width:auto;}
+    nav a {padding: .7rem 1rem;}
+
 }
-/*Box Model*/
-* {-moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;}

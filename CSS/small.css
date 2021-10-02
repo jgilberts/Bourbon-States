@@ -1,5 +1,14 @@
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+* {-moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;}
+h1{
+    font-family: 'Permanent Marker', cursive;
+    font-size: large;
+}
+
 body{ 
     font-family: 'Permanent Marker', cursive;
+    font-size: 16px;
     font-family: 'Lato', sans-serif;
     }
 body h1{
@@ -12,11 +21,17 @@ body h1{
     float: left;
     width: 50%;
 }
-/* Small devices 768px and less */
-@media only screen and (max-width: 768px){
+
+.small-12{width: 100%;}
+
     /* grid rules */
     .row {clear: both;}
-    .column {float: left;}
+    .limited { 
+        max-width:1280px;
+        margin: auto;
+    }
+
+    .column {float: left; padding: 0 2vw; margin 0 0 .75rem 0;}
 
     footer{
         background-color:lightgray
@@ -34,15 +49,59 @@ body h1{
         clear: both;
     }
 
+    /* header rules */
+    header{ 
+        background-color:lightslategray;
+    }
+    header img{
+        float: left;
+        height: 85px;
+        padding-right: 10px;
+    }
+    header h1, header h2{
+        margin: 0;
+        color:black;
+    }
+    header h1{
+        padding: .5rem 0 0 0;
+        font-size: 1.95rem;
+    }
+    header h2{
+        padding: .2rem 0 0 0;
+        font-size: 1.05rem;
+    }
+
+button#hamburgerBtn{
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 2.4rem;
+    cursor: pointer;
+    padding: 0 30px 0 2vw;
 }
-/* Medium devices 768px to 1280px */ 
-@media only screen and (min-width: 768px){
- 
+nav {background-color:lightsteelblue}
+nav ul{margin:0; padding:0;}
+nav li{list-style-type: none;}
+nav a{
+    display: block;
+    padding: .8rem 0;
+    color: #eee;
+    text-align: center;
+    text-decoration: none;
+}
+nav li.active{
+    background-color: rgba(0,0,0,0.5);
+}
+nav a:hover {background-color: rgba(0,0,0,0.2);}
+nav ul.open {display: block;}
+nav ul {display: none;}
+
+main img{
+    width: 100%;
+    height: auto;
 }
 
-/* Large screens >1280px */
-@media only screen and (min-width:1280px){
-
+main h1{
+    margin: .5rem 0 .1rem 0;
+    font-size: 2rem;
 }
-/*Box Model*/
-* {-moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;}

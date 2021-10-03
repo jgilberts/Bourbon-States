@@ -23,6 +23,7 @@ body h1{
 }
 
 .small-12{width: 100%;}
+.small-6{width: 50%;}
 
     /* grid rules */
     .row {clear: both;}
@@ -31,7 +32,7 @@ body h1{
         margin: auto;
     }
 
-    .column {float: left; padding: 0 2vw; margin 0 0 .75rem 0;}
+    .column {float: left; padding: 0 2vw; margin: 0 0 .75rem 0;}
 
     footer{
         background-color:lightgray

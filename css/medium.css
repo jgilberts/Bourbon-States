@@ -6,6 +6,7 @@
     header h2{font-size: 1.5rem;}
     header img{height:100px;}
     .medium-6{width: 50%;}
+    .medium-4{width: 33.3333333%;}
     nav button{display: none;}
     nav ul{display: block;}
     nav li{

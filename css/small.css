@@ -22,17 +22,18 @@ body h1{
     width: 50%;
 }
 
-.small-12{width: 100%;}
-.small-6{width: 50%;}
+.small-12{flex-basis: 100%;}
+.small-6{flex-basis: 50%;}
 
     /* grid rules */
-    .row {clear: both;}
+    .row {display: flex;
+    flex-wrap: wrap;}
     .limited { 
         max-width:1280px;
         margin: auto;
     }
 
-    .column {float: left; padding: 0 2vw; margin: 0 0 .75rem 0;}
+    .column {padding: 0 2vw; margin: 0 0 .75rem 0;}
 
     footer{
         background-color:lightgray
@@ -44,11 +45,7 @@ body h1{
         margin: 1rem 0 .3rem 0;
     }
 
-    .clearfix:after {
-        content:"";
-        display: table;
-        clear: both;
-    }
+
 
     /* header rules */
     header{ 

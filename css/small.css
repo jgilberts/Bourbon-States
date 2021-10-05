@@ -18,8 +18,8 @@ body h1{
     background-color: rosybrown;
 }
 .column {
-    float: left;
-    width: 50%;
+    flex-basis: 50%;
+   
 }
 
 .small-12{flex-basis: 100%;}
@@ -44,7 +44,6 @@ body h1{
         text-transform: uppercase;
         margin: 1rem 0 .3rem 0;
     }
-
 
 
     /* header rules */
@@ -102,4 +101,11 @@ main img{
 main h1{
     margin: .5rem 0 .1rem 0;
     font-size: 2rem;
+}
+
+.barrelGallery{
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    flex-wrap: wrap;
 }

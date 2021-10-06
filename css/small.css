@@ -106,3 +106,9 @@ main h1{
     margin: .5rem 0 .1rem 0;
     font-size: 2rem;
 }
+
+.no-bullets {
+    list-style-type: none; /* Remove bullets */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margins */
+  }

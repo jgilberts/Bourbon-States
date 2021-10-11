@@ -112,3 +112,26 @@ main h1{
     padding: 0; /* Remove padding */
     margin: 0; /* Remove margins */
   }
+
+  form {
+      margin: 1rem 2%;
+      max-width: 25rem;
+      label {
+          display: block;
+          padding: .75rem 0;
+          span{ font-size: .75rem;}
+          input, textarea{display: block; 
+            font-size: 1rem;
+        padding: .75rem;
+    background-color: F6F6F6; 
+border: 1px solid #bbb;
+margin-top: .2rem;
+width: 100%;}
+textarea{min-height: 13rem;}
+      }
+      input:focus. textarea:focus {background-color: #ddd;}
+  }
+  submitBtn{ border-radius: 1rem;
+width: 100%;
+-webkit-appearance:none;
+-mox-appearance: none;}

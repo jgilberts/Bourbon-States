@@ -5,7 +5,7 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
   /* header rules */
 header{ 
     background-color:lightslategray;
-    background-image: url("../images/mainBackground.jpg");
+    background-image: url("../images/mainBackground_cropped.jpg");
 }
 header img{
     float: left;

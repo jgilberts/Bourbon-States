@@ -47,6 +47,31 @@ body h1{
     float: left;
     width: 50%;
 }
+.thanks{
+    width:100%;
+    text-align: center;
+    
+}
+
+.fab {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+.fab:hover {
+    opacity: 0.7;
+  }
+.fa-twitter-square {
+    background: #55ACEE;
+    color: white;
+   
+  }
+.fl{
+    display: flex;
+}
 
 .small-12{width: 100%;}
 .small-6{width: 50%;}
@@ -121,23 +146,30 @@ main h1{
   }
 
   form {
-      margin: 1rem 2%;
+      align-content: center; /*added*/
+      margin: 1rem; /*no 2%*/
       max-width: 25rem;
       label {
           display: block;
           padding: .75rem 0;
-          span{ font-size: .75rem;}
-          input, textarea{display: block; 
-            font-size: 1rem;
-        padding: .75rem;
-    background-color: F6F6F6; 
-border: 1px solid #bbb;
-margin-top: .2rem;
-width: 100%;}
-textarea{min-height: 13rem;}
+          span{ 
+              font-size: .75rem;
+            }
+          input, textarea{
+                display: block; 
+                font-size: 1rem;
+                padding: .75rem;
+                background-color: F6F6F6; 
+                border: 1px solid #bbb;
+                margin-top: .2rem;
+                width: 100%;}
+            textarea{
+                min-height: 13rem;
+            }
       }
       input:focus. textarea:focus {background-color: #ddd;}
   }
+  
   submitBtn{ border-radius: 1rem;
 width: 100%;
 -webkit-appearance:none;

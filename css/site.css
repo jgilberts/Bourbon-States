@@ -23,10 +23,14 @@ body h1{
 .fab:hover {
     opacity: 0.7;
   }
-  .fa-twitter-square {
+.fa-twitter-square {
     background: #55ACEE;
     color: white;
+    font-size: 32px;
   }
+.fl{
+    display: flex;
+}
 /* Small devices 768px and less */
 @media only screen and (max-width: 768px){
     /* grid rules */
@@ -47,8 +51,7 @@ body h1{
         content:"";
         display: table;
         clear: both;
-    }
-
+    
 }
 /* Medium devices 768px to 1280px */ 
 @media only screen and (min-width: 768px){

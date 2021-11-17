@@ -12,6 +12,21 @@ body h1{
     float: left;
     width: 50%;
 }
+.fab {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+.fab:hover {
+    opacity: 0.7;
+  }
+  .fa-twitter-square {
+    background: #55ACEE;
+    color: white;
+  }
 /* Small devices 768px and less */
 @media only screen and (max-width: 768px){
     /* grid rules */

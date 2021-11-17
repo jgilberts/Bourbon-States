@@ -72,6 +72,31 @@ body h1{
 .fl{
     display: flex;
 }
+.center{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.click {
+    width:100%;
+    background-color: rgb(33, 157, 179);
+    color: black;
+    text-align: center;
+    border-radius: .5rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding-top: .75rem;
+    padding-bottom: .75rem; 
+    
+}
+
+.click:hover {
+    opacity: 0.6;
+    color: black;
+}
+
+
 
 .small-12{width: 100%;}
 .small-6{width: 50%;}

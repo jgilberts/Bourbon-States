@@ -31,6 +31,33 @@ body h1{
 .fl{
     display: flex;
 }
+form{
+    align-content: center;
+    margin: 1rem;
+    max-width: 25rem;
+    label{
+        display: block;
+        padding: .75rem 0;
+        span{
+            font-size: .75rem;
+            color: gray;
+        }
+        input, textarea{
+            display: block;
+            font-size: 1rem;
+            padding: .75rem;
+            background-color: lightslategray;
+            border: 1px solid black;
+            color: black;
+            margin-top: .2rem;
+            width:100%;}
+        textarea{
+            min-height: 13rem;
+        }
+        }
+        
+    }
+}
 /* Small devices 768px and less */
 @media only screen and (max-width: 768px){
     /* grid rules */

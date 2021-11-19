@@ -7,6 +7,9 @@ header{
     background-color:lightslategray;
     background-image: url("../images/mainBackground_cropped.jpg");
 }
+header :last-child{
+    color: whitesmoke;
+}
 header img{
     float: left;
     height: 85px;
